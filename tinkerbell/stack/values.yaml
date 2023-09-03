@@ -26,7 +26,7 @@ stack:
   kubevip:
     enabled: true
     name: kube-vip
-    image: ghcr.io/kube-vip/kube-vip:v0.5.12
+    image: ghcr.io/kube-vip/kube-vip:v0.6.2
     imagePullPolicy: IfNotPresent
     roleName: kube-vip-role
     roleBindingName: kube-vip-rolebinding
