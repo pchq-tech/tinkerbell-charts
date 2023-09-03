@@ -58,7 +58,7 @@ boots:
   # It should be a unused IP address in your network.
   # Once the Kubernetes Gateway API and an implementation is available that can implements HTTP(S), UDP, GRPC, and transparent proxying, we will use that
   # and be able to require only a single IP for all Tinkerbell services.
-  remoteIp: 10.1.1.24
+  remoteIp: 10.1.1.25
   tinkServer:
     # This should be the same as `stack.loadBalancerIP`.
     ip: *publicIP
