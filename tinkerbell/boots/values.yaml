@@ -75,7 +75,7 @@ syslog:
 
 # The default remote IP used for DHCP, TFTP, HTTP, Syslog, OSIE base URL, and Tink Server.
 # Each of these can be overridden individually below.
-remoteIp: 192.168.1.94
+remoteIp: 10.1.1.24
 
 # The DHCP address passed to the netboot client for retrieving DHCP configuration. Typically the
 # address of the boots DHCP server.
